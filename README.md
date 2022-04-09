@@ -1,2 +1,2 @@
 # mini
-devopscalculator
+devopscalculator2
