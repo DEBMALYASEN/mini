@@ -1,2 +1,2 @@
 [ubuntu18]
-172.17.0.1 ansible_user=debmalya
+172.17.0.1 ansible_user=debmalya ansible_pthon_interpreter=auto
