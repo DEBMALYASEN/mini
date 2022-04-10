@@ -1,9 +1,8 @@
 ---
-- name: Deploy a jar file
+- name: Pull docker image of Calculator
   hosts: all
-  remote_user: debmalya
   tasks:
-    - name: Copy jar file to home directory
-      copy:
-        src: ./target/calculatorDevOps-1.0-SNAPSHOT-jar-with-dependencies.jar
-        dest: ~/
+    - name: Pull image
+      docker_image:
+        name: bony211298/devopscalculator
+        source: pull
