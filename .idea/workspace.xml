@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e24abbb1-c2f1-4e1f-a8d7-6ae22be4b2fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e24abbb1-c2f1-4e1f-a8d7-6ae22be4b2fa" name="Changes" comment="adding other functionalities">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,8 @@
       <workItem from="1649487384986" duration="41000" />
       <workItem from="1649487452573" duration="2735000" />
       <workItem from="1649510032935" duration="33000" />
-      <workItem from="1649585370877" duration="338000" />
+      <workItem from="1649585370877" duration="956000" />
+      <workItem from="1649953416701" duration="86000" />
     </task>
     <task id="LOCAL-00001" summary="adding other functionalities">
       <created>1649585703913</created>
@@ -69,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649585703913</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding other functionalities">
+      <created>1649585722485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649585722485</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,5 +92,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding other functionalities" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding other functionalities" />
   </component>
 </project>
