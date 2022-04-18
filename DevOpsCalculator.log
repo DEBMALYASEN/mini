@@ -1,0 +1,24 @@
+2022-04-14 17:00:19.705 [Calculator.java] INFO  calculator.Calculator - [FACTORIAL] - 2.0
+2022-04-14 17:00:19.715 [Calculator.java] INFO  calculator.Calculator - [RESULT - FACTORIAL] - 2.0
+2022-04-14 17:00:21.590 [Calculator.java] INFO  calculator.Calculator - [POWER - 4.0 RAISED TO] 5.0
+2022-04-14 17:00:21.591 [Calculator.java] INFO  calculator.Calculator - [RESULT - POWER] - 1024.0
+2022-04-14 17:02:58.460 [Calculator.java] INFO  calculator.Calculator - [FACTORIAL] - 2.0
+2022-04-14 17:02:58.472 [Calculator.java] INFO  calculator.Calculator - [RESULT - FACTORIAL] - 2.0
+2022-04-14 17:02:59.981 [Calculator.java] INFO  calculator.Calculator - [SQ ROOT] - 1.0
+2022-04-14 17:02:59.982 [Calculator.java] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 1.0
+2022-04-14 17:03:02.378 [Calculator.java] INFO  calculator.Calculator - [POWER - 1.0 RAISED TO] 4.0
+2022-04-14 17:03:02.379 [Calculator.java] INFO  calculator.Calculator - [RESULT - POWER] - 1.0
+2022-04-14 17:03:03.876 [Calculator.java] INFO  calculator.Calculator - [FACTORIAL] - 2.0
+2022-04-14 17:03:03.877 [Calculator.java] INFO  calculator.Calculator - [RESULT - FACTORIAL] - 2.0
+2022-04-14 17:03:07.437 [Calculator.java] INFO  calculator.Calculator - [POWER - 4.0 RAISED TO] 2.0
+2022-04-14 17:03:07.438 [Calculator.java] INFO  calculator.Calculator - [RESULT - POWER] - 16.0
+2022-04-14 17:03:10.142 [Calculator.java] INFO  calculator.Calculator - [FACTORIAL] - 7.0
+2022-04-14 17:03:10.142 [Calculator.java] INFO  calculator.Calculator - [RESULT - FACTORIAL] - 5040.0
+2022-04-14 17:03:12.973 [Calculator.java] INFO  calculator.Calculator - [SQ ROOT] - 9.0
+2022-04-14 17:03:12.974 [Calculator.java] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 3.0
+2022-04-14 17:03:18.517 [Calculator.java] INFO  calculator.Calculator - [POWER - 67.0 RAISED TO] 7.0
+2022-04-14 17:03:18.518 [Calculator.java] INFO  calculator.Calculator - [RESULT - POWER] - 6.060711605323E12
+2022-04-14 17:03:57.301 [Calculator.java] INFO  calculator.Calculator - [SQ ROOT] - 5.0
+2022-04-14 17:03:57.301 [Calculator.java] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 2.23606797749979
+2022-04-14 17:04:18.299 [Calculator.java] INFO  calculator.Calculator - [POWER - 2.0 RAISED TO] 4.0
+2022-04-14 17:04:18.299 [Calculator.java] INFO  calculator.Calculator - [RESULT - POWER] - 16.0
