@@ -1,0 +1,63 @@
+pipeline 
+{
+    
+  agent any
+  stages {
+    stage('Cloning Git') 
+    {
+      steps 
+      {
+        git 'https://github.com/DEBMALYASEN/mini.git'
+      }
+    }
+    stage('Build'){
+        steps {
+             sh 'mvn clean install'
+        }
+    }
+    stage('Test')
+    {
+        steps 
+        {
+             sh 'mvn test'
+        }
+    }
+    
+     stage('Building image') {
+      steps
+      {
+         sh 'docker build -t bony211298/devopscalculator:latest .'
+        
+      }
+    }
+    stage('Deploy Image') 
+    {
+      steps
+      {
+      
+            withDockerRegistry([credentialsId:"dockerHUB",url:""])
+             {
+               sh 'docker push bony211298/devopscalculator:latest ' 
+             }
+      }  
+    }
+    stage("Clean Docker Image")
+    {
+        steps
+        {
+            sh 'docker rmi  -f bony211298/devopscalculator:latest ' 
+        }
+    }
+    stage(' Ansible Deploy') {
+            steps {
+                
+                withDockerRegistry([ credentialsId: 'dockerhub', url: "" ]) 
+                {
+                    ansiblePlaybook colorized: true, disableHostKeyChecking: true,installation: 'Ansible', inventory: 'inventory', playbook: 'p2.yml'
+                }
+            }
+        }
+    
+
+}
+}
